@@ -318,6 +318,7 @@ namespace StrongGrid
 			Settings = new Settings(_fluentClient);
 			SpamReports = new SpamReports(_fluentClient);
 			Statistics = new Statistics(_fluentClient);
+			SubUsers = new SubUsers(_fluentClient);
 			Suppressions = new Suppressions(_fluentClient);
 			Templates = new Templates(_fluentClient);
 			UnsubscribeGroups = new UnsubscribeGroups(_fluentClient);
