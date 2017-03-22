@@ -168,6 +168,14 @@ namespace StrongGrid
 		Suppressions Suppressions { get; }
 
 		/// <summary>
+		/// Gets the Teammates resource.
+		/// </summary>
+		/// <value>
+		/// The Teammates.
+		/// </value>
+		Teammates Teammates { get; }
+
+		/// <summary>
 		/// Gets the Templates resource.
 		/// </summary>
 		/// <value>
@@ -206,6 +214,14 @@ namespace StrongGrid
 		/// The webhook settings.
 		/// </value>
 		WebhookSettings WebhookSettings { get; }
+
+		/// <summary>
+		/// Gets the WebhookStats resource.
+		/// </summary>
+		/// <value>
+		/// The webhook stats.
+		/// </value>
+		WebhookStats WebhookStats { get; }
 
 		/// <summary>
 		/// Gets the Whitelabel resource.
